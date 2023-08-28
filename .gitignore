@@ -2,4 +2,5 @@
 /shelf/
 /.idea/*
 /node_modules/*
+/.vscode/*
 
