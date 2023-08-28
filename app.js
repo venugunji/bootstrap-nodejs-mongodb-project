@@ -22,10 +22,9 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "views/index.html"))
 })
 
-app.get("/summary", (req, res) => {
+app.get("/tableOperations", (req, res) => {
 
-    res.write(" Summary URL is executed");
-    res.end();
+    res.sendFile(path.join(__dirname, "views/table.html"));
 }
 )
 
